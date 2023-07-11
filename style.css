@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    margin: 10px;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+:root{
+    --Color-main: rgb(15, 15, 15);
+    --Color-Normal: #fff;
+    --Color-Button: #7a7474;
+    --Bg-Button: #1C1C1C;
+    --Boder: #3E3E3E;
+    --Color-Basic: #7245FA;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+textarea{
+    font-size: 1.3rem;
+    outline: none;
+    padding: 10px;
+    background-color: var(--Bg-Button);
+    border: 1px solid var(--Boder) ;
+    color: var(--Color-Normal);
+    border-radius: 7px;
+}
+
+h1{
+    color: var(--Color-Normal);
+    font-weight: 400;
+}
+
+span{
+    background-color: var(--Bg-Button);
+    padding: 4px 20px;
+    border-radius: 7px;
+    border: solid 1px var(--Boder);
+    color: var(--Color-Button);
+    transition: all 0.3s;
+}
+
+
+span.active{
+    background-color: var(--Color-Basic);
+    padding: 4px 20px;
+    border-radius: 7px;
+    border: solid 1px var(--Color-Basic);
+    color: var(--Color-Normal);
+}
+
+.Title {
+    color: var(--Color-Normal);
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.Mokatil {
+    color: var(--Color-Normal);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.Mokatil span{
+    color: var(--Color-Normal);
+    text-decoration: underline var(--Color-Basic);
+    transition: all 0.3s;
+    background-color: var(--Color-main);
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+}
+
+.uil-twitter{
+    color: var(--Color-Button);
+    background-color: var(--Bg-Button);
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    border: 1px solid var(--Boder);
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 0;
+}
+
+.uil-twitter:hover {
+    color: var(--Color-Normal);
+    background-color: var(--Color-Basic);
+    border: 1px solid var(--Color-Basic);
+    margin: 0;
+}
